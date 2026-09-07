@@ -552,8 +552,8 @@ img { max-width: 100%; display: block; }
   gap: 10px;
   padding: 12px 20px;
   border-radius: 999px;
-  color: var(--white);
-  background: var(--ink);
+  color: var(--ink);
+  background: var(--btn);
   font-weight: 700;
   transition: transform 0.3s ease;
 }
@@ -592,8 +592,8 @@ table.tour-table tr:last-child td { border-bottom: none; }
 /* ===== Footer ===== */
 
 .site-footer {
-  background: var(--ink);
-  color: var(--white);
+  background: var(--btn);
+  color: var(--ink);
   padding: 36px 0;
   margin-top: 40px;
   text-align: center;
@@ -601,7 +601,7 @@ table.tour-table tr:last-child td { border-bottom: none; }
 
 .site-footer .social-links { justify-content: center; }
 
-.site-footer p { color: #BBBBBB; margin-top: 18px; }
+.site-footer p { color: var(--ink); opacity: 0.75; margin-top: 18px; }
 
 /* ===== Responsive ===== */
 
