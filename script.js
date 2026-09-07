@@ -1,3 +1,13 @@
+// ===== הודעת תודה אחרי שליחת טופס יצירת קשר =====
+(function () {
+  const successEl = document.getElementById('formSuccess');
+  if (!successEl) return;
+  if (new URLSearchParams(window.location.search).get('sent') === '1') {
+    successEl.hidden = false;
+    successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+})();
+
 // ===== ניווט נייד =====
 (function () {
   const toggle = document.getElementById('navToggle');

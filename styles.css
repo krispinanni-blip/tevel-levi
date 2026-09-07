@@ -499,6 +499,46 @@ img { max-width: 100%; display: block; }
   border: 2px solid var(--line);
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--white);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--btn);
+  outline-offset: 1px;
+}
+
+.contact-form textarea { resize: vertical; min-height: 100px; }
+
+.contact-form .btn { border: none; width: 100%; text-align: center; cursor: pointer; }
+
+.form-success {
+  background: var(--grey);
+  border: 2px dashed var(--line);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-top: 16px;
+  text-align: center;
+}
+
 .social-links {
   display: flex;
   gap: 14px;
