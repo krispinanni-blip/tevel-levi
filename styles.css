@@ -192,7 +192,7 @@ img { max-width: 100%; display: block; }
 .hero-image { flex: 1 1 320px; text-align: center; }
 .hero-image img { width: 100%; max-width: 520px; margin: 0 auto; }
 
-body.home-bg { background: #FAF1E5; }
+body.home-bg { background: #F9F0E4; }
 
 .hero h1 {
   font-size: 3rem;
