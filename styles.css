@@ -177,7 +177,8 @@ img { max-width: 100%; display: block; }
 /* ===== Hero ===== */
 
 .hero {
-  padding: 60px 0 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .hero-inner {
@@ -211,7 +212,8 @@ body.home-bg { background: #FBF7F1; }
 /* ===== Section blocks ===== */
 
 .section {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-title {
