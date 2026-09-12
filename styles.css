@@ -48,7 +48,7 @@
 * { box-sizing: border-box; }
 
 a, button, .btn, .card, .memory-tile, .simon-pad, .nav-toggle, .social-link {
-  cursor: url('images/cursor-mascot.png') 24 24, pointer;
+  cursor: url('images/cursor-mascot.png') 18 18, pointer;
 }
 
 html { scroll-behavior: smooth; }
