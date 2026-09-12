@@ -189,7 +189,9 @@ img { max-width: 100%; display: block; }
 
 .hero-text { flex: 1 1 420px; }
 .hero-image { flex: 1 1 320px; text-align: center; }
-.hero-image img { max-width: 520px; margin: 0 auto; filter: drop-shadow(0 12px 0 rgba(0,0,0,0.08)); }
+.hero-image img { max-width: 520px; margin: 0 auto; }
+
+body.home-bg { background: #FBF7F1; }
 
 .hero h1 {
   font-size: 3rem;
