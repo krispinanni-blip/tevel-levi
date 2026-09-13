@@ -194,7 +194,7 @@ img { max-width: 100%; display: block; }
 
 body.home-bg { background: #F9F0E4; }
 
-.hero h1 {
+.hero h1, .about-hero h1 {
   font-size: 3rem;
   line-height: 1.15;
   margin: 0 0 16px;
@@ -220,6 +220,11 @@ body.home-bg { background: #F9F0E4; }
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 12px;
+}
+
+h1.section-title {
+  font-size: 3rem;
+  line-height: 1.15;
 }
 
 .section-title.red, .section-title.blue, .section-title.green,
@@ -695,7 +700,7 @@ table.tour-table tr:last-child td { border-bottom: none; }
 
   .header-inner { flex-wrap: wrap; }
 
-  .hero h1 { font-size: 2.2rem; }
+  .hero h1, .about-hero h1, h1.section-title { font-size: 2.2rem; }
 
   .memory-grid { grid-template-columns: repeat(3, 1fr); }
 }
