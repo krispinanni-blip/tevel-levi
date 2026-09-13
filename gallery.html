@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
-<title>בלוג להורים | תבל לוי</title>
-<meta name="description" content="בלוג להורים - טיפים, השראה ומחשבות על מוזיקה, גדילה וילדים מהעולם של תבל לוי.">
+<title>גלריה | תבל לוי</title>
+<meta name="description" content="גלריית תמונות וסרטונים של תבל לוי - איורים, סיפורים מושרים וקטעי וידאו.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Baloo+2:wght@500;700;800&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=14">
@@ -24,9 +24,9 @@
       <ul>
         <li><a href="index.html">בית</a></li>
         <li><a href="songs.html">שירים וסרטונים</a></li>
-        <li><a href="gallery.html">גלריה</a></li>
+        <li><a href="gallery.html" class="active">גלריה</a></li>
         <li><a href="shop.html">חנות</a></li>
-        <li><a href="blog.html" class="active">בלוג</a></li>
+        <li><a href="blog.html">בלוג</a></li>
         <li><a href="about.html">אודותי</a></li>
         <li><a href="parents.html">צור קשר</a></li>
       </ul>
@@ -37,41 +37,92 @@
 <main>
   <section class="hero container" style="padding-bottom:10px;">
     <div class="hero-text" style="text-align:center; margin:0 auto;">
-      <h1>בלוג להורים 📝</h1>
-      <p class="tagline">מחשבות, טיפים והשראה על מוזיקה, גדילה וילדים</p>
+      <h1>גלריה 📸🎬</h1>
+      <p class="tagline">איורים, סיפורים מושרים וקטעי וידאו - כל העולם של תבל לוי במקום אחד</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <h2 class="section-title purple" style="text-align:center;">כל המאמרים</h2>
-      <p class="section-sub">לחצו על תמונה כדי לקרוא את המאמר המלא</p>
-      <div class="card-grid" style="margin-bottom:50px;">
-        <a class="post-card" href="blog-songs-and-language.html">
-          <img src="images/blog-songs-and-language.png" alt="תבל לוי מנגנת בגיטרה מול קבוצת ילדים, עם בועות מחשבה של מילים פשוטות">
-          <h3>למה ילדים לומדים כל כך טוב דרך שירים?</h3>
-        </a>
-        <a class="post-card" href="blog-not-every-screen.html">
-          <img src="images/blog-not-every-screen.png" alt="ילדה עם אוזניות רכות יושבת ברוגע ומקשיבה למוזיקה">
-          <h3>לא כל מסך נולד שווה</h3>
-        </a>
-        <a class="post-card" href="blog-singing-with-kids.html">
+      <h2 class="section-title purple">תמונות</h2>
+      <p class="section-sub">לחצו על תמונה כדי להגדיל</p>
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-full="images/tevel-hero-world-v7.png">
+          <img src="images/tevel-hero-world-v7.png" alt="תבל לוי מנגנת בגיטרה מול דלת פתוחה לעולם מאויר">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/tevel-about-v2.png">
+          <img src="images/tevel-about-v2.png" alt="תבל לוי עומדת ומנגנת בגיטרה">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/tevel-product-hands.png">
+          <img src="images/tevel-product-hands.png" alt="סיפור מושר: שתי ידיים חברות טובות">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/tevel-product-teeth.png">
+          <img src="images/tevel-product-teeth.png" alt="סיפור מושר: זמן צחצוח">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/tevel-product-forest.png">
+          <img src="images/tevel-product-forest.png" alt="סיפור מושר: יום ביער">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/blog-songs-and-language.png">
+          <img src="images/blog-songs-and-language.png" alt="תבל לוי מנגנת בגיטרה מול קבוצת ילדים">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/blog-singing-with-kids.png">
           <img src="images/blog-singing-with-kids.png" alt="שני ילדים יושבים ביחד על שטיח, שרים ומוחאים כפיים">
-          <h3>מה קורה לילד כששרים איתו</h3>
-        </a>
-        <a class="post-card" href="blog-boredom-imagination.html">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/blog-not-every-screen.png">
+          <img src="images/blog-not-every-screen.png" alt="ילדה עם אוזניות רכות יושבת ברוגע ומקשיבה למוזיקה">
+        </button>
+        <button class="gallery-item" type="button" data-full="images/blog-boredom-imagination.png">
           <img src="images/blog-boredom-imagination.png" alt="ילד מציץ בחיוך מתוך אוהל שמיכות ביתי">
-          <h3>וידוי קטן: אני לא ממהרת לתקן את זה</h3>
-        </a>
-      </div>
-
-      <h2 class="section-title blue" style="text-align:center;">עוד בקרוב</h2>
-      <div class="placeholder-note">
-        📝 עוד פוסטים אמיתיים יתווספו כאן בהמשך.
+        </button>
       </div>
     </div>
   </section>
+
+  <section class="section" style="background:var(--white); border-radius: var(--radius-lg); margin:0 20px;">
+    <div class="container">
+      <h2 class="section-title blue">סרטונים</h2>
+      <p class="section-sub">כל השירים המקוריים של תבל לוי - לחצו כדי לצפות ביוטיוב</p>
+      <div class="card-grid">
+        <a class="post-card" href="https://www.youtube.com/watch?v=JMg3Eh-YUaw" target="_blank" rel="noopener">
+          <img src="https://i3.ytimg.com/vi/JMg3Eh-YUaw/hqdefault.jpg" alt="שיר פרידה מהמוצץ - מוצעצי">
+          <h3>שיר פרידה מהמוצץ (מוצעצי)</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=QRpm_uD_nWg" target="_blank" rel="noopener">
+          <img src="https://i2.ytimg.com/vi/QRpm_uD_nWg/hqdefault.jpg" alt="חיפושית עם גיטרה">
+          <h3>חיפושית עם גיטרה 🐞🎸</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=iez6wn-ZVqQ" target="_blank" rel="noopener">
+          <img src="https://i.ytimg.com/vi/iez6wn-ZVqQ/hqdefault.jpg" alt="שיר הפנים">
+          <h3>שיר הפנים</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=ZncioCko1zw" target="_blank" rel="noopener">
+          <img src="https://i.ytimg.com/vi/ZncioCko1zw/hqdefault.jpg" alt="אורי והשן שושנית">
+          <h3>אורי והשן שושנית</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=5o6yBDTIm6g" target="_blank" rel="noopener">
+          <img src="https://i.ytimg.com/vi/5o6yBDTIm6g/hqdefault.jpg" alt="פרפר לבן פרפר כחול">
+          <h3>פרפר לבן פרפר כחול</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=yuaDVzGGV0E" target="_blank" rel="noopener">
+          <img src="https://i.ytimg.com/vi/yuaDVzGGV0E/hqdefault.jpg" alt="כשיד פוגשת יד">
+          <h3>כשיד פוגשת יד 🤝</h3>
+        </a>
+        <a class="post-card" href="https://www.youtube.com/watch?v=1NYFDD3Xorc" target="_blank" rel="noopener">
+          <img src="https://i.ytimg.com/vi/1NYFDD3Xorc/hqdefault.jpg" alt="חיפושית קטנה">
+          <h3>חיפושית קטנה 🐞</h3>
+        </a>
+      </div>
+      <p style="text-align:center; margin-top:24px;">
+        <a class="btn btn-blue" href="https://www.youtube.com/@tevelkidsmusic" target="_blank" rel="noopener">צפייה בכל הסרטונים ביוטיוב ▶</a>
+      </p>
+    </div>
+  </section>
 </main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="סגירה">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
 
 <footer class="site-footer">
   <div class="container">

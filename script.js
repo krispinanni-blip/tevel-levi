@@ -8,6 +8,42 @@
   }
 })();
 
+// ===== גלריית תמונות =====
+(function () {
+  const items = document.querySelectorAll('.gallery-item');
+  const lightbox = document.getElementById('lightbox');
+  if (!items.length || !lightbox) return;
+
+  const lightboxImg = document.getElementById('lightboxImg');
+  const closeBtn = document.getElementById('lightboxClose');
+
+  function open(src, alt) {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt;
+    lightbox.hidden = false;
+  }
+
+  function close() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+  }
+
+  items.forEach((item) => {
+    item.addEventListener('click', () => {
+      const img = item.querySelector('img');
+      open(item.dataset.full, img ? img.alt : '');
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !lightbox.hidden) close();
+  });
+})();
+
 // ===== ניווט נייד =====
 (function () {
   const toggle = document.getElementById('navToggle');
