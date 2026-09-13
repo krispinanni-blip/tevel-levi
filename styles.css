@@ -543,7 +543,7 @@ h1.section-title {
 
 .timeline-item { margin-bottom: 28px; position: relative; }
 .timeline-item::before {
-  content: '🎵';
+  content: '';
   position: absolute;
   right: -38px;
   top: 0;
