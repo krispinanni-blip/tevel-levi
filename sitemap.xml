@@ -44,4 +44,12 @@
     <loc>https://krispinanni-blip.github.io/tevel-levi/parents.html</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://krispinanni-blip.github.io/tevel-levi/privacy.html</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://krispinanni-blip.github.io/tevel-levi/accessibility.html</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>

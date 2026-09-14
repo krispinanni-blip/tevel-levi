@@ -667,6 +667,9 @@ table.tour-table tr:last-child td { border-bottom: none; }
 
 .site-footer p { color: var(--ink); opacity: 0.75; margin-top: 18px; }
 
+.footer-legal-links { margin-top: 6px !important; font-size: 0.85rem; }
+.footer-legal-links a { text-decoration: underline; }
+
 /* ===== Responsive ===== */
 
 @media (max-width: 800px) {
