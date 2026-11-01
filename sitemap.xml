@@ -53,6 +53,14 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://tevelmusic.com/terms.html</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tevelmusic.com/returns.html</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://tevelmusic.com/accessibility.html</loc>
     <priority>0.3</priority>
   </url>
