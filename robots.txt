@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://krispinanni-blip.github.io/tevel-levi/sitemap.xml
+Sitemap: https://tevelmusic.com/sitemap.xml
