@@ -5,10 +5,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tevelmusic.com/classes.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://tevelmusic.com/songs.html</loc>
     <priority>0.8</priority>
   </url>
@@ -39,10 +35,6 @@
   <url>
     <loc>https://tevelmusic.com/about.html</loc>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tevelmusic.com/games.html</loc>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tevelmusic.com/parents.html</loc>
